@@ -1,6 +1,8 @@
 # **Final Project: Git Collaboration Simulation**
 
 You will work with a partner to simulate a mini software development project using Git. The focus is on collaboration, branch management, conflict resolution, and proper Git history practices.
+  
+The first thing to do is for one team member to **fork** this repository. This will serve as your team’s **Starter Repository**.
 
 ## **Setup Instructions**
 
