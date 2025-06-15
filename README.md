@@ -75,6 +75,21 @@ Refer to your activity document.
 * Class names: `CamelCase`  
 * No import system needed; assume all files are magically available
 
+### Pseudo-code Syntax Rules:
+
+* No real language, just descriptive pseudo-code.  
+* Use indentation to indicate blocks.  
+* Use comments for clarity (`#` prefix).
+
+Example:
+
+```
+# Display list of products
+function display_products():
+    for each product in product_list:
+        print product.name
+```
+
 ---
 
 ## Feature Tickets
@@ -265,4 +280,13 @@ Each of the four features must be:
 * Satisfy the exit criteria stated in the ticket  
 * Testable via reading the `.pseudo` files (e.g., does `display_products()` print values?)
 
+---
+
+## Evaluation Criteria
+
+- Git Workflow and Branching (30%)
+- Git History Quality (20%)
+- Feature Completion (30%)
+- Retrospective Report (10%)
+- Code Style and Organization (10%)
 
