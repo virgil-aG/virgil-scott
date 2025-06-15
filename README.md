@@ -144,7 +144,7 @@ function display_products():
 
 ---
 
-## Define Git Workflow Rules
+## Git Workflow Rules
 
 ### Git Workflow Requirements
 
@@ -193,7 +193,7 @@ function display_products():
 
 ---
 
-## Simulate Team Collaboration Guidelines
+## Team Collaboration Guidelines
 
 ### Team Setup
 
@@ -234,12 +234,12 @@ function display_products():
 
 ---
 
-## Student Submission Requirements
+## Submission Requirements
 
 
 ### 1\. **Final GitHub Repository Link**
 
-* Must be pushed to GitHub under one team member’s account (can be private or public)  
+* Must be pushed to GitHub under one team member’s account  
 * All feature branches must be visible in the repository  
 * `main` branch should include all merged features
 
