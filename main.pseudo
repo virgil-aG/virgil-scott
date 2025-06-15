@@ -1,0 +1,8 @@
+# Main entry point
+
+# This file ties together all components of the pseudo-shop
+# Feel free to modify this to simulate application flow
+
+# Run the app
+print "Welcome to the Pseudo Shop!"
+
