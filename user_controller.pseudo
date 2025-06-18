@@ -9,16 +9,11 @@ function create_user(name,email,password){
 
     Ask user for email
     //Check if email is in user dicitonary already
-    function check_email(email)
+    check_email(email)
 
     Ask user for password
     //Check if password length is greater or equal than 8 characters
-    if password lengh >= 8 characters then
-        Add password to dictionary value
-    else
-        Print "Input a password equal or longer than 8 characters"
-        Ask user to input a password equal or longer than 8 characters
-    end if
+    check_password(password)
 
     Ask user for name
     Add name to dicitonary value
@@ -64,5 +59,14 @@ function check_email(email){
     else
         Name already in use select another email
         Ask user to input a different email
+    end if
+}
+
+function check_password(password){
+    if password lengh >= 8 characters then
+        Add password to dictionary value
+    else
+        Print "Input a password equal or longer than 8 characters"
+        Ask user to input a password equal or longer than 8 characters
     end if
 }
