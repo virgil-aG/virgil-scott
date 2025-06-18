@@ -14,3 +14,14 @@
 # Placeholder product list
 product_list = []
 
+function filter_product(attribute, value)
+filtered_products = []
+	
+for products in product_list:
+	if product[attribute] == value:
+		Add products in filtered_products[]
+		filtered_products.add(product)
+	end if
+end for
+
+return filtered_products
