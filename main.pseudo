@@ -15,8 +15,14 @@ create_product("Computer", 15, 10, 9, 5, "white", "ASUS")
 create_product("ROG Laptop", 15, 11, 10, 1.8, "red", "ASUS")
 create_product("MSI Laptop", 14, 10, 12, 1.8, "red", "MSI")
 
+display_products(product_list)
+
 filtered = filter_products("brand", "ASUS")
+
 #add display
+display_products(filtered)
 
 filtered = filter_products("color", "red)
+
 #add display
+display_products(filtered)
