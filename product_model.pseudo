@@ -15,6 +15,13 @@
 product_list = []
 
 function filter_product(attribute, value)
+valid_attributes = ["name", "width", "height", "length", "weight", "color", "brand"]
+
+if attribute NOT IN valid_attributes
+	Print "Error: Attribute not found"
+	return []
+end if
+
 filtered_products = []
 	
 for products in product_list:
