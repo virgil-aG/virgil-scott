@@ -6,3 +6,4 @@
 # Run the app
 print "Welcome to the Pseudo Shop!"
 
+filtered = filter_products("brand", "value")
