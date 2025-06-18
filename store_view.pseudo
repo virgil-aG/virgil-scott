@@ -3,3 +3,27 @@
 # Placeholder function:
 # function display_products()
 
+Add Header Section
+    Add logo of the store
+    Add name of the store
+
+Add DisplayProduct Section
+    Add a search bar for product searching
+    Add a button to search
+    display_products(product_list)
+    Add a table and format with name, price, and filtered attributes
+
+function display_products(product_list){
+    for name in products list
+        Show all names of all products to user
+    end for
+    
+    for price in products list
+        Show all price of all products to user
+    end for
+
+    for attributes in products list
+        Show all featured attributes of all products to user
+    end for
+}
+
