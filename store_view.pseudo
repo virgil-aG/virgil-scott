@@ -3,3 +3,28 @@
 # Placeholder function:
 # function display_products()
 
+Add Header Section
+    Add logo of the store
+    Add name of the store
+
+Add DisplayProduct Section
+    Add a search bar for product searching
+    Add a button to search
+    //Display the products in a table format
+    display_products(product_list)
+
+function display_products(product_list){
+    Print "============================"
+    Print " | Name | Price | Width | Length | ... | Weight | Color | Brand |
+    Print "============================"
+
+    For product in product_list
+        Name = product.name
+        Size - product.size
+        ...
+    Print " | Name | Price | Width | Length | ... | Weight | Color | Brand |
+    Print "============================"
+
+    ...
+}
+
