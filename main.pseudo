@@ -10,4 +10,13 @@ print "Welcome to the Pseudo Shop!"
 create_user("virgil", "virgil-a@gmail.com", "thisismypassword")
 login_user("virgil-a@gmail.com, "thisismypassword")
 
-filtered = filter_products("brand", "value")
+create_product("Phone", 10, 1, 5, 0.5, "black", "ASUS")
+create_product("Computer", 15, 10, 9, 5, "white", "ASUS")
+create_product("ROG Laptop", 15, 11, 10, 1.8, "red", "ASUS")
+create_product("MSI Laptop", 14, 10, 12, 1.8, "red", "MSI")
+
+filtered = filter_products("brand", "ASUS")
+#add display
+
+filtered = filter_products("color", "red)
+#add display
