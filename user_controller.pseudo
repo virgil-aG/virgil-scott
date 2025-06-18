@@ -1,6 +1,64 @@
 # Handles user signup and login
 
-# Placeholder function signatures:
-# function create_user(name, email, password)
-# function login_user(email, password)
+//Initialize a dictionary containing a list for user credentials
+user_creds = []
 
+function create_user(name,email,password){
+    //Initialize taken flag
+    taken = false
+
+    Ask user for email
+    //Check if email is in user dicitonary already
+    for user in users key do
+        if user == email Then
+            taken = true
+        else
+            taken = false
+        end if
+    end for
+
+    if taken == false Then
+        Add email to user dicitonary as key
+    else
+        Name already in use select another email
+        Ask user to input a different email
+    end if
+
+    Ask user for password
+    //Check if password length is greater or equal than 8 characters
+    if password lengh >= 8 characters then
+        Add password to dictionary value
+    else
+        Print "Input a password equal or longer than 8 characters"
+        Ask user to input a password equal or longer than 8 characters
+    end if
+
+    Ask user for name
+    Add name to dicitonary value
+}
+
+function login_user(email, password){
+    //Initialize attempts
+    attempts = 0
+
+    while attempts < 3 do
+        Ask user for email
+        //Check if email is in user dicitonary
+        for user in users key do
+            if user == email Then
+                Ask user for password
+                if password == email value Then
+                    Print "User successfully authorized"
+                    return True
+                else
+                    attempts++
+                    Print "User password is incorrect"
+                end if
+            else
+                Ask user to input valid email
+                return False
+            end if
+        end for
+    end while
+    Print "User has reached max attempts. Ask for account restoration."
+}
