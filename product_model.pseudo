@@ -16,6 +16,18 @@ product_list = []
 
 function create_product(name, width, height, length, weight, color, brand)
 
+if width <= 0 OR height <= 0 OR length <= 0 OR weight <= 0
+ print "Error: Product Dimension should be greater than 0"
+ return
+end if
+
+for product in product_list
+ if product.name == name
+	print "Error: Product name already exists"
+	return
+ end if
+end for
+
 product = {
  name: name,
  width: width,
@@ -29,6 +41,7 @@ product = {
 add product to product_list
 
 return product
+
 
 function filter_product(attribute, value)
 valid_attributes = ["name", "width", "height", "length", "weight", "color", "brand"]
