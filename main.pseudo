@@ -6,5 +6,8 @@
 # Run the app
 print "Welcome to the Pseudo Shop!"
 
+
 create_user("virgil", "virgil-a@gmail.com", "thisismypassword")
 login_user("virgil-a@gmail.com, "thisismypassword")
+
+filtered = filter_products("brand", "value")
