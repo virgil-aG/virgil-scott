@@ -9,20 +9,7 @@ function create_user(name,email,password){
 
     Ask user for email
     //Check if email is in user dicitonary already
-    for user in users key do
-        if user == email Then
-            taken = true
-        else
-            taken = false
-        end if
-    end for
-
-    if taken == false Then
-        Add email to user dicitonary as key
-    else
-        Name already in use select another email
-        Ask user to input a different email
-    end if
+    function check_email(email)
 
     Ask user for password
     //Check if password length is greater or equal than 8 characters
@@ -61,4 +48,21 @@ function login_user(email, password){
         end for
     end while
     Print "User has reached max attempts. Ask for account restoration."
+}
+
+function check_email(email){
+    for user in users key do
+        if user == email Then
+            taken = true
+        else
+            taken = false
+        end if
+    end for
+
+    if taken == false Then
+        Add email to user dicitonary as key
+    else
+        Name already in use select another email
+        Ask user to input a different email
+    end if
 }
